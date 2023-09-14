@@ -18,7 +18,7 @@ Enable virtual environment:
 Install requirements:
 `` $pip install -r requirements.txt `` 
 
-### Running
+## Running
 To run the UI, use the following command:
 `` $python ui_cropper.py ``
 
