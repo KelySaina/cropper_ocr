@@ -10,7 +10,6 @@ Install tesseract:
 `` $sudo apt install tesseract-ocr ``
 
 Create virtual environment:
-
 `` $python3 -m venv ocr ``
 
 Enable virtual environment:
