@@ -9,14 +9,18 @@ Install tkinter:
 Install tesseract:
 `` $sudo apt install tesseract-ocr ``
 
-Create virtual environment and enable it:
+Create virtual environment:
 
 `` $python3 -m venv ocr ``
+
+Enable virtual environment:
 `` $source ocr/bin/activate ``
 
 Install requirements:
-`` Spip install -r requirements.txt `` 
+`` $pip install -r requirements.txt `` 
 
 ### Running
 To run the UI, use the following command:
 `` $python ui_cropper.py ``
+
+The results will be in a folder called "output"
